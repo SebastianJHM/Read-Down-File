@@ -95,6 +95,7 @@ export class AppComponent {
     
   }
 
+
   downloadFile() {
     if (this.llegoServicio === true) {
       saveAs(this.fileD, 'Results' + '.xlsx');
